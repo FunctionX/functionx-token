@@ -9,7 +9,7 @@ import "./TokenRecipient.sol";
 contract FunctionXToken is MintableToken, BurnableToken, PausableToken {
 
     string public constant name = "Function X";
-    string public constant symbol = "Fx";
+    string public constant symbol = "FX";
     uint8 public constant decimals = 18;
 
 
